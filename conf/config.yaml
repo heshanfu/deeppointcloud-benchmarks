@@ -19,11 +19,9 @@ model_name: ??? # Name of the specific model to load
 # Those arguments within experiment defines which model, dataset and task to be created for benchmarking
 # parameters for Weights and Biases
 wandb:
-  project: s3dis
-  log: True
+  project: shapenet-pn2
+  log: False
 
 # parameters for TensorBoard Visualization
 tensorboard:
   log: True
-
-pretty_print: False
